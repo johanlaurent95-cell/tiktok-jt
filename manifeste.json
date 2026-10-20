@@ -1,0 +1,54 @@
+{
+  "name": "TikTok JT 60s — Chaton LFI",
+  "short_name": "JT TikTok",
+  "description": "Journal vertical 9:16 avec chaton présentateur LFI, 60 secondes, prêt à publier.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a12",
+  "theme_color": "#0a0a12",
+  "lang": "fr",
+  "dir": "ltr",
+  "categories": ["news", "video", "productivity"],
+  "icons": [
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjEwMCIgZmlsbD0iIzBhMGExMiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNjAiIGZpbGw9IiNlNWMxNWEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuMzVlbSI+8J+QsTwvdGV4dD48L3N2Zz4=",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjEwMCIgZmlsbD0iIzBhMGExMiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNjAiIGZpbGw9IiNlNWMxNWEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuMzVlbSI+8J+QsTwvdGV4dD48L3N2Zz4=",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjEwMCIgZmlsbD0iI2U1YzE1YSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNjAiIGZpbGw9IiMwYTBhMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuMzVlbSI+8J+QsTwvdGV4dD48L3N2Zz4=",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Lancer le JT 60s",
+      "short_name": "JT 60s",
+      "url": "./index.html?action=jt60",
+      "description": "Lance directement un JT TikTok de 60 secondes"
+    },
+    {
+      "name": "JT 45s",
+      "short_name": "JT 45s",
+      "url": "./index.html?action=jt45",
+      "description": "JT ultra-court de 45 secondes"
+    },
+    {
+      "name": "JT 90s",
+      "short_name": "JT 90s",
+      "url": "./index.html?action=jt90",
+      "description": "JT de 90 secondes pour Reels"
+    }
+  ]
+}
